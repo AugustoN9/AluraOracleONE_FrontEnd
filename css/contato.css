@@ -1,0 +1,76 @@
+#formulario {
+    width: 940px;
+    margin: 0 20%;
+}
+
+#formulario form {
+    margin: 40px 0;
+}
+
+#formulario form label, option, legend, table, label {
+    display: block;
+    font-family: accid;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin-bottom: 20px;
+    padding: 7px 13px;
+    width: 40%;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.enviar{
+    border-radius: 7px;
+    border: none;
+    background-color: #4032f6;
+    width: 330px;
+    padding: 10px 20px;
+    font-family: accid;
+    text-transform: capitalize;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #ffffff;
+    margin: 20px 0;
+    transition: 3s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background-color: #110b5c;
+    transform: rotate(2deg) scale(1.15) ;
+}
+
+.enviar:active {
+    color: #110b5c;
+    background-color: #ffffff;
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background-color: #110b5c;
+    color: #ffffff;
+}
+
+td, th {
+    border: 1px solid #110b5c;
+    padding: 10px 50px;
+    text-align: center;
+}
+
+.mapa{
+    padding: 20px 0;
+}
+
+@font-face {
+    font-family: accid;
+    src: url(../font/accid___.ttf)
+  }

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+    <head>
+        <meta charset="UFT-8">
+        <title>Produtos Barbearia Navalhas</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/contato.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="box">
+                <h1><img src="image/logoBarberShop3.png" width="20%" alt="logoBarbeariaNavalhas"></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <div id="formulario">
+                <form>
+                    <label for="nome">Nome Completo</label>
+                    <input type="text" id="nome" class="input-padrao" required >
+
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" class="input-padrao" placeholder="seuemail@dominio.com" required>
+
+                    <label for="celular">Celular</label>
+                    <input type="tel" id="celular" class="input-padrao" placeholder="(XX)XXXXX-XXXX" required>
+
+                    <label for="mensagem">Mensagem</label>
+                    <textarea cols="70" rows="10" id="mensagem" class="input-padrao" ></textarea>
+                    
+                    <fieldset>
+                        <legend>Como prefere ser contatado?</legend>
+
+                        <label for="radiobutton-email"><input type="radio" name="contato" value="email" id="radiobutton-email">   E-mail</label>
+                                            
+                        <label for="radiobutton-celular"><input type="radio" name="contato" value="celular" id="radiobutton-celular">   Celular</label>
+                        
+                        <label for="radiobutton-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radiobutton-whatsapp" checked >   Whatsapp</label>
+                        
+                    </fieldset>
+                    <fieldset>
+                        <label>Qual horario prefere ser atendido?</label>
+                        <select>
+                            <option>Manhã</option>
+                            <option>Tarde</option>
+                            <option>Noite</option>
+                        </select>
+                    </fieldset>
+                    
+                    <label><input type="checkbox" class="checkbox" checked> Gostaria de receber nossas novidades por email?</label>
+                              
+
+                    <input type="submit" value="Enviar Formulario" class="enviar">
+                </form> 
+
+                <div>
+                    <label>Horário de Funcionamento</label>
+                    <table>
+                        
+                        <thead>
+                            <tr>
+                                <th>Dia</th>
+                                <th>horario</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Segunda</td>
+                                <td>8h ~ 20h</td>
+                            </tr>
+                            <tr>
+                                <td>Terça</td>
+                                <td>8h ~ 20h</td>
+                            </tr>
+                            <tr>
+                                <td>Quarta</td>
+                                <td>8h ~ 20h</td>
+                            </tr>
+                            <tr>
+                                <td>Quinta</td>
+                                <td>8h ~ 20h</td>
+                            </tr>
+                            <tr>
+                                <td>Sexta</td>
+                                <td>8h ~ 20h</td>
+                            </tr>           
+                        </tbody>              
+                    </table>
+
+                    <label>Localização</label>
+
+                    <div class="mapa">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6712.98017849302!2d-51.16129887802061!3d-30.01267389793907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1645124760305!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+
+                
+
+            </div>            
+            
+        </main>
+       
+        <footer>
+            <img src="image/logo-branco2.png" alt="logoRodapeBarbearia">
+            <p class="copyright">&copy; Copyright Barbearia Navalhas - 2022</p>
+        </footer>  
+
+    </body>
+</html>
